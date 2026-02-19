@@ -1,21 +1,21 @@
 # Wealth-Risk-Banking-Data-Insights
 This project provides an end-to-end analysis of customer banking data to uncover patterns in financial behavior, loan exposure, and risk classification. By building a complete analytics pipeline, this project takes raw customer data, performs exploratory data analysis (EDA), loads the data into a relational database, queries it for business insights, and visualizes the findings in an interactive dashboard.
 
-## Tech Stack 🛠️
+## Tech Stack 
 * **Python**: Pandas, NumPy, Matplotlib, Seaborn, SQLAlchemy (For EDA and database connection)
 * **Database**: PostgreSQL (For data storage and querying)
 * **SQL**: For extracting business insights
 * **Data Visualization**: Power BI (For interactive dashboards)
 * **Environment**: Jupyter Notebook
 
-## Dataset 📁
+## Dataset 
 The dataset (`Banking.csv`) contains 3,000 records of banking customers with 26 attributes, including:
 * **Demographics:** Age, Nationality, Gender, Occupation
 * **Financials:** Estimated Income, Superannuation Savings, Credit Card Balances, Bank Loans, Deposits, Checking/Saving Accounts
 * **Risk & Loyalty:** Risk Weighting (1-5), Loyalty Classification (e.g., Silver, Gold, Platinum, Jade)
 * **Generated Attributes:** Income Band (Low, Medium, High)
 
-## Project Workflow 🔄
+## Project Workflow 
 
 ### 1. Data Cleaning & Exploratory Data Analysis (Python)
 * Imported raw CSV data using `pandas`.
